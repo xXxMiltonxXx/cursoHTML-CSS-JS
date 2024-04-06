@@ -1,0 +1,25 @@
+Creación de Sitio Web con HTML y Entrega en GitHub
+Objetivo:
+Crear un sitio web básico utilizando únicamente HTML con una estructura correcta y las etiquetas y atributos especificados. Además, la entrega debe realizarse a través de GitHub.
+Requisitos:
+-   Crear un sitio web que conste de al menos dos páginas web distintas.
+-   Utilizar únicamente HTML para la construcción del sitio web.
+-   Implementar las siguientes etiquetas HTML:
+-   <h1>, <h2>, <h3>: Para títulos de diferentes niveles.
+-   <p>: Para párrafos de texto.
+-   <ul>, <ol>, <li>: Para listas sin orden y con orden.
+-   <a>: Para enlaces.
+-   <img>: Para inserción de imágenes.
+-   <form>, <input>: Para formularios con al menos tres tipos de entradas diferentes.
+Proceso de Entrega en GitHub
+Actualización del Fork
+-git pull upstream main
+-git push -u origin main
+Empezar a Trabajar
+-git checkout nombreDesuRama(no es main) 
+Creación de la Estructura de Carpetas
+Dentro de la carpeta clase03 del repositorio forked, cree una nueva carpeta con el nombre WebSuNombre.
+Dentro de esta carpeta, cree dos subcarpetas: una llamada html y otra llamada source.
+Coloque todos los archivos HTML en la carpeta html.
+Coloque todas las imágenes utilizadas en el sitio web en la carpeta source.
+GUARDAR TODO Y SUBIR, REVISAR SI SE HIZO EL PULL REQUEST Y CONFIRMAR 
