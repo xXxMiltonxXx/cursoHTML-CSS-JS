@@ -1,0 +1,26 @@
+/* Selector por elemento */
+h2{
+    color: rgba(196, 230, 67, 90);
+    font-size: 40px;
+}
+li{
+    color: #AE43E6;
+    background-color: aliceblue;
+}
+/* Selector por clase */
+.elemento-faltante{
+    font-weight: 900;
+    color: blueviolet;
+}
+.caja{
+    background-color: aquamarine;
+}
+
+.caja .elemento-faltante{
+    background-color: black;
+
+}
+/* Selector por id(identificador unico) */
+#subtitulo-importante{
+    color: #4351E6;
+}
