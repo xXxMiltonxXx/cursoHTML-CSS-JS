@@ -1,0 +1,51 @@
+body{
+    background-color: #6a888c;
+}
+/* padding */
+.form{
+    display: grid;
+    width: 20%;
+    height: 40%;
+    background-color: #5f7174;
+    padding: 20px 40px;
+    margin: 10px;
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+}
+
+.form_input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-family: 'Courier New';
+    padding: 10px 5px;
+    border-bottom: 3px solid #fff;
+}
+
+
+.from_submit{
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.contenido1{
+    margin : 40px 10px;
+    /* margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left:50px ;
+    margin-right: 50px; */
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+img{
+
+    border: 8px solid green;
+    border-radius: 30% 30%/ 80% 80%;
+}

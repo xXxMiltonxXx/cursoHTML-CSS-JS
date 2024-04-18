@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Propiedades de la Caja</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Modelo de caja</h1>
+    <div class="box" id="myBox">Contenido de la Caja</div>
+
+    <div class="controls">
+      <h2>Controles</h2>
+      <label for="contentInput">Contenido:</label>
+      <input type="text" id="contentInput" value="Contenido de la Caja" />
+
+      <label for="contentSizeInput">Tamaño del Contenido:</label>
+      <input type="range" id="contentSizeInput" min="10" max="100" value="16" />
+
+      <label for="contentPositionInput">Posición del Contenido:</label>
+      <input
+        type="range"
+        id="contentPositionInput"
+        min="-50"
+        max="50"
+        value="0"
+      />
+
+      <label for="paddingInput">Padding:</label>
+      <input type="range" id="paddingInput" min="0" max="100" value="10" />
+
+      <label for="borderWidthInput">Ancho del Borde:</label>
+      <input type="range" id="borderWidthInput" min="0" max="20" value="1" />
+
+      <label for="borderStyleSelect">Estilo del Borde:</label>
+      <select id="borderStyleSelect">
+        <option value="solid">Sólido</option>
+        <option value="dotted">Punteado</option>
+        <option value="dashed">Discontinuo</option>
+      </select>
+
+      <label for="borderColorInput">Color del Borde:</label>
+      <input type="color" id="borderColorInput" value="#9BA8AB" />
+
+      <label for="marginInput">Margen:</label>
+      <input type="range" id="marginInput" min="0" max="50" value="5" />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

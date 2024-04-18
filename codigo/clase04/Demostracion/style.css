@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #06141B;
+    color: #CCD0CF;
+}
+h1{
+    text-align: center;
+}
+.box {
+    background-color: #4A5C6A;
+    border: 1px solid #9BA8AB;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.controls {
+    display: grid;
+    margin: 35%;
+    padding: 20px 60PX;
+    color: #fff;
+    background-color: #1b1b1b;
+    border: 2px ;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 4px 5px #918f8f ;
+}
+
+
+input[type="text"] {
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
