@@ -1,0 +1,27 @@
+body{
+    background-color: #0f0;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 255, 0.783);
+    margin: 20px;
+}
+.subbox{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background: #1900006a;
+    margin: 20px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background: hsl(200, 40%, 80%);
+    margin: 20px;
+}
