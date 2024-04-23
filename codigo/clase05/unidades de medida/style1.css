@@ -1,0 +1,27 @@
+
+div{
+    font-family: 'Lucida Sans'; 
+    background: #2d3250;
+    color: #fff;
+    width: 100vw;
+    height: 90vh;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10vh;
+
+
+}
+
+h1{
+    margin: 0;
+
+}
+span{
+    color: #9a9a9d;
+    font-size: 13px;
+    font-weight: 100;
+}
+p{
+    color: #e4dcdc;
+}

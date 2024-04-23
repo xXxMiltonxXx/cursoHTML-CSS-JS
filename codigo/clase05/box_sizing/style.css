@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background: #424769;
+    margin: 10px;
+}
+
+.box-default{
+    box-sizing: content-box;
+    padding: 20px;
+    border: 10px solid #fe1;
+}
+
+.box-new{
+    box-sizing: border-box;
+    padding: 20px;
+    border: 10px solid #fe1;
+}

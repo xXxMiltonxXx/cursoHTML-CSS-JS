@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    font-family: Tahoma;
+    color: #fff;
+}
+h1{
+    color: #fff;
+    font-family: 'Courier New';
+    font-size: 32px; 
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.5;  
+}
+
+h2{
+    font-size: 32px; 
+    text-align: right;   
+}
+p{
+    text-align: left;
+}
+span{
+    font-style: oblique;
+    text-align: center;
+}
+
+.segundo-parrafo{
+    text-align: start;
+    text-transform: capitalize;
+    font-family: Julio;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 8px;
+}
+button{
+    letter-spacing: 3px;
+}

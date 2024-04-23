@@ -1,0 +1,40 @@
+body{
+    background-color: #0f0;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 255, 0.783);
+    margin: 20px;
+}
+/* mejora en position */
+.box1{
+    position: relative; /*linea agregada*/
+    width: 200px;
+    height: 200px;
+    background: #1900006a;
+    margin: 20px;
+}
+
+/* .subbox{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+} */
+
+.subbox {
+    position: absolute; /*linea agregada*/
+    top: 50%; /*linea agregada*/
+    left: 50%; /*linea agregada*/
+    transform: translate(-50%, -50%); /*linea agregada*/
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: hsl(200, 40%, 80%);
+    margin: 20px;
+}
