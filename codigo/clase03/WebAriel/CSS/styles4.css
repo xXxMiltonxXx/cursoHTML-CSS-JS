@@ -1,0 +1,14 @@
+body{
+    background-color: #000;
+    color: #a00;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+input{
+    background-color: #000;
+    border: none;
+    border-bottom: 1px solid #a00;
+    border-radius: 5px;
+    border-top: 1px solid #a00;
+    color: #a00;
+}
