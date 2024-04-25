@@ -1,0 +1,19 @@
+body{ 
+    background-color: rgb(229, 232, 232);
+    font-family: 'Lucida Sans';
+}
+h1{
+    padding: 20px;
+    background-color: rgba(178, 186, 187, 0.637);
+    border-bottom: 7px solid rgb(25, 54, 83);
+}
+p{
+    padding: 40px;
+    margin-right: 150px;
+    background-color: rgba(171, 178, 185, 0.281);
+    border-left: 7px solid rgb(25, 54, 83);
+    border-right: 7px solid rgb(25, 54, 83);
+}
+h3{
+    padding: 30px;
+}
