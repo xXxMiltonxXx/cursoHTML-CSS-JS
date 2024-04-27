@@ -1,0 +1,28 @@
+
+body{
+    background-color: #efc;
+    margin: 0;
+}
+.box{
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    background: url("https://content.nationalgeographic.com.es/medio/2018/02/27/playa-de-isuntza-lekeitio__1280x720.jpg") bottom / cover fixed #7DA0CA;
+    /* background-color: #7DA0CA;
+    background-image: url("https://content.nationalgeographic.com.es/medio/2018/02/27/playa-de-isuntza-lekeitio__1280x720.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat:no-repeat ;
+    background-attachment: scroll; */
+
+}
+.opaco{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0007;
+}
+h2{
+    padding-top: 30px;
+    color: #fff;
+}
