@@ -1,0 +1,53 @@
+.tarjeta{
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(27, 24, 37), #64641a);
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagen{
+    width: 150px;
+    height: 150px;
+    background-image:url("/IMAGENES/Captura\ de\ pantalla\ de\ 2024-04-26\ 22-36-47.png");
+    background-size: cover;
+    background-position: right;
+    border-radius: 100%;
+    margin: auto;
+    box-shadow: 3px 3px 20px 2px;
+
+}
+
+h1{
+    text-align: center;
+    color: #b62454;
+}
+
+h2{
+    text-align: center;
+    padding: 0 10px;
+    color: #636029;
+    background: #fff;
+}
+
+p{
+    text-align: center;
+    padding: 0 10px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.escudo{
+    background-image: url("/IMAGENES/pngwing.com\ \(1\).png");
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 0;
+}
