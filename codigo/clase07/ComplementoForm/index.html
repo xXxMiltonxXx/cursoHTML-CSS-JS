@@ -28,37 +28,51 @@
         />
       </div>
       <div class="form_input">
-        <label>Seleccione la prioridad de su requerimiento</label>
-        <select>
+        <label>Seleccione la prioridad de su requerimiento
+          <select>
+            <option value="1">Leve</option>
+            <option value="2">Medio</option>
+            <option value="3">Grave</option>
+          </select>
+        </label>
+        <!-- <select>
           <option value="1">Leve</option>
           <option value="2">Medio</option>
           <option value="3">Grave</option>
-        </select>
+        </select> -->
       </div>
       <div class="form_input">
+        <label>Deja un comentario</label>
         <textarea readonly rows="3" placeholder="describa el problema">
  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit delectus, at quibusdam impedit officiis atque vero aspernatur laborum voluptatem similique numquam iste neque? Eaque est tempora quae id quidem!</textarea
         >
       </div>
       <div class="form_input">
-        <input list="usuarios" name="refente"/>
+        <label>Apoya a un creador de contenido</label>
+        <input list="usuarios" name="refente" />
         <datalist id="usuarios" name="type-of-user">
           <option>AronPlay</option>
           <option>Aurelo</option>
           <option>Rubius</option>
           <option>XD</option>
         </datalist>
-        
-        <input list="animales" name="refente"/>
+      </div>
+      <div class="form_input">
+        <label>Escribe un animal</label>
+        <input list="animales" name="refente" />
         <datalist id="animales" name="type-of-user">
-            <option>perro</option>
-            <option>gato</option>
-            <option>caballo</option>
-            <option>XD</option>
-          </datalist>
+          <option>perro</option>
+          <option>gato</option>
+          <option>caballo</option>
+          <option>XD</option>
+        </datalist>
+      </div>
+      <div class="form_input">
+        <label>Acepto enviar los datos a soporte tecnico
+          <input class="checkbox" type="checkbox"/>
+        </label>
       </div>
       <button>Enviar</button>
     </form>
-    
   </body>
 </html>

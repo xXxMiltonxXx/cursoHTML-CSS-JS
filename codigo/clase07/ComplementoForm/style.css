@@ -3,18 +3,24 @@ body{
     background-color: #f5ede7;
 }
 
-input{
+input, select{
     background: transparent;
+    padding: 6px 8px;
     width: 100%;
     box-sizing: border-box;
     border: none;
-    border-bottom: #30393e solid;
+    border: 1px #30393e solid;
     border-radius: 5PX;
 }
+option{
+    background: #f5ede7;
+}
+
 .form_input{
     padding: 10px 20px;
 }
 form{
+    font-size: 16px;
     background-color: #e0dedc;
     max-width: 500px;
     margin: auto;
@@ -24,14 +30,25 @@ form{
 }
 
 h2{
+    font-size: 1.5em;
     text-align: center;
     margin: 0;
-    margin-bottom: 10px;
+    padding: 20px;
 }
 textarea{
     min-width: 100%;
     resize: vertical;
     min-height: 10px;
-    /* max-width: 300px; */
+    max-width: 300px;
     /* form-sizing:content; */
+}
+
+label{
+    font-size: 0.9em;
+    line-height:2 ;
+}
+
+.checkbox{
+    width: auto;
+    height: 12px;
 }
