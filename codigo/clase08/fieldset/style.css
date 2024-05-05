@@ -3,17 +3,15 @@ body{
     background-color: #f5ede7;
 }
 
-input, select{
+input{
     background: transparent;
     padding: 6px 8px;
+    margin: 6px 0;
     width: 100%;
     box-sizing: border-box;
     border: none;
     border: 1px #30393e solid;
     border-radius: 5PX;
-}
-option{
-    background: #f5ede7;
 }
 
 .form_input{
@@ -35,11 +33,14 @@ h2{
     margin: 0;
     padding: 20px;
 }
-textarea{
-    min-width: 100%;
-    resize: vertical;
-    min-height: 10px;
-    /* form-sizing:content; */
+
+fieldset{
+    margin: 20px;
+    border: 1px solid #0d1439;
+    border-radius: 5px;
+}
+legend{
+    padding: 0 6px;
 }
 
 label{

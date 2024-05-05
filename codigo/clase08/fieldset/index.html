@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fielset y legent</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <form>
+      <h2>Formulario de Soporte tecnico</h2>
+      <fieldset>
+        <legend>Información Básica</legend>
+        <div class="form_input">
+          <label for="nombre">Nombre</label>
+          <input
+            name="nombre"
+            type="text"
+            placeholder="Escriba su nombre"
+            id="nombre"
+          />
+        </div>
+        <div class="form_input">
+          <label for="email">Correo</label>
+          <input
+            name="correo"
+            type="email"
+            id="email"
+            placeholder="Escriba su correo electronico"
+          />
+        </div>
+        <div class="form_input">
+          <label
+            >Cedula
+            <input name="cedula" type="text" placeholder="Escriba su cedula" />
+          </label>
+        </div>
+      </fieldset>
+      <div class="form_input">
+        <label
+          >Acepto enviar los datos a soporte tecnico
+          <input class="checkbox" type="checkbox" />
+        </label>
+      </div>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>

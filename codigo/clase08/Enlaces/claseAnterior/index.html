@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Soporte Tecnico</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <form>
+      <h2>Formulario de Soporte tecnico</h2>
+      <fieldset>
+        <legend>Informacion Basica</legend>
+        <div class="form_input">
+          <label for="nombre">Nombre</label>
+          <input
+            name="nombre"
+            type="text"
+            placeholder="Escriba su nombre"
+            id="nombre"
+          />
+        </div>
+        <div class="form_input">
+          <label for="email">Correo</label>
+          <input
+            name="correo"
+            type="email"
+            id="email"
+            placeholder="Escriba su correo electronico"
+          />
+        </div>
+        <div class="form_input">
+          <label
+            >Cedula
+            <input name="cedula" type="text" placeholder="Escriba su cedula" />
+          </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Tipo error</legend>
+        <div class="form_input">
+          <label
+            >Seleccione la prioridad de su requerimiento
+            <select>
+              <option value="1">Leve</option>
+              <option value="2">Medio</option>
+              <option value="3">Grave</option>
+            </select>
+          </label>
+          <!-- <select>
+          <option value="1">Leve</option>
+          <option value="2">Medio</option>
+          <option value="3">Grave</option>
+        </select> -->
+        </div>
+        <div class="form_input">
+          <label>Deja un comentario</label>
+          <textarea readonly rows="3" placeholder="describa el problema">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit delectus, at quibusdam impedit officiis atque vero aspernatur laborum voluptatem similique numquam iste neque? Eaque est tempora quae id quidem!</textarea
+          >
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Apoyo a creador</legend>
+        <div class="form_input">
+          <label>Apoya a un creador de contenido</label>
+          <input list="usuarios" name="refente" />
+          <datalist id="usuarios" name="type-of-user">
+            <option>AronPlay</option>
+            <option>Aurelo</option>
+            <option>Rubius</option>
+            <option>XD</option>
+          </datalist>
+        </div>
+        <div class="form_input">
+          <label>Escribe un animal</label>
+          <input list="animales" name="refente" />
+          <datalist id="animales" name="type-of-user">
+            <option>perro</option>
+            <option>gato</option>
+            <option>caballo</option>
+            <option>XD</option>
+          </datalist>
+        </div>
+      </fieldset>
+      <div class="form_input">
+        <label
+          >Acepto enviar los datos a soporte tecnico segun las <a href="../politicasP.html" download target="_blank">politicas de
+          Privacidad</a>
+          <input class="checkbox" type="checkbox" />
+        </label>
+      </div>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>

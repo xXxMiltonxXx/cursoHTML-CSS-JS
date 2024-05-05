@@ -35,10 +35,24 @@ h2{
     margin: 0;
     padding: 20px;
 }
+
+fieldset{
+    margin: 0 20px 12px 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #0c0f3c;
+}
+
+legend{
+    color: #343333;
+    padding: 0 5px;
+}
+
 textarea{
     min-width: 100%;
     resize: vertical;
     min-height: 10px;
+    max-width: 300px;
     /* form-sizing:content; */
 }
 
@@ -50,4 +64,11 @@ label{
 .checkbox{
     width: auto;
     height: 12px;
+}
+a{
+    text-decoration: none;
+    color: #343333;
+    font-size: 0.9em ;
+    font-weight: bold;
+    text-transform: uppercase;
 }
